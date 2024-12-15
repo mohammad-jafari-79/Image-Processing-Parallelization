@@ -138,6 +138,22 @@ if __name__ == '__main__':
 - 29.22 seconds
 - 29.27 seconds
 
+## Example
+
+To see the image processing in action, you can use the provided images. Below are examples of the input and output images:
+
+### Input Image: `cat.jpg`
+The following image is used as input for the image processing script. It is loaded and processed to enhance its brightness.
+
+![Input Image](./cat.jpg)
+
+### Output Image: `output.jpg`
+After processing the image using either single-core or multi-core techniques, the resulting image is saved as `output.jpg`. Below is the processed version of the input image:
+
+![Output Image](./output.jpg)
+
+You can try running the script to generate your own `output.jpg` based on the input image.
+
 ## Conclusion
 
 The results show that using **Multiprocessing** significantly reduces the execution time compared to **Single Processing**, especially with a multi-core processor. For instance, on the Intel Core i5-10400F, the parallel approach completes the task in about 9 seconds, while the single-core approach takes around 25 seconds. Similarly, on the Intel Core i7-4600M, the parallel approach finishes in around 15 seconds, while single-core processing takes approximately 29 seconds.
